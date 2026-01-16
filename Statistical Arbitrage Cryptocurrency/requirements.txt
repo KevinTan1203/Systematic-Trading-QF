@@ -1,0 +1,61 @@
+# Specify Python version (not enforced by pip but good doc)
+# Python>=3.10
+
+# Core numerical & data packages
+numpy==2.3.4           # latest release of NumPy :contentReference[oaicite:0]{index=0}
+pandas==2.3.2          # latest release of pandas :contentReference[oaicite:1]{index=1}
+scipy==1.13.1          # you can update if newer, check PyPI
+pytz                   # timezone support
+numba==0.59.1          # safe version for JIT usage
+tqdm==4.66.4           # progress bars
+
+# Visualization & plotting
+matplotlib==3.8.4      # latest-ish release
+seaborn==0.13.2        # latest stable
+plotly==6.3.1          # latest release of Plotly :contentReference[oaicite:2]{index=2}
+mplfinance==0.12.10b0   # finance‐specific plotting
+
+# Financial data access
+yfinance==0.2.43
+pandas-datareader==0.10.0
+ccxt==4.2.19           # for crypto/exchange data
+
+# Statistical & econometric modeling
+statsmodels==0.14.2
+arch==6.3.1
+linearmodels==5.3
+
+# Machine learning / AI
+scikit-learn==1.7.2    # latest release of scikit-learn :contentReference[oaicite:3]{index=3}
+xgboost==2.1.1
+lightgbm==4.4.0
+catboost==1.2.5
+
+# Optimization & convex programming
+cvxpy==1.4.3
+ecos==2.0.13
+osqp==0.6.7
+scs==3.2.4
+
+# Backtesting, performance & analytics
+backtrader==1.9.78.123
+quantstats==0.0.62
+empyrical==0.5.5
+ffn==0.3.6
+bt==0.2.9
+
+# Portfolio & risk management
+PyPortfolioOpt==1.5.6
+riskfolio-lib==4.0.2
+
+# Time series forecasting
+pmdarima==2.0.4
+prophet==1.1.6         # note: may need pystan or cmdstan installed
+pystan==3.9.0
+
+# Other useful tools
+requests==2.32.3
+beautifulsoup4==4.12.3
+openpyxl==3.1.5
+ipykernel==6.29.5
+notebook==7.2.1
